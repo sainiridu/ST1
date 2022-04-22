@@ -911,3 +911,124 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.22-05.20.53:577][169]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
 [2022.04.22-05.20.53:615][169]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
 [2022.04.22-05.20.53:641][170]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.04.22-05.23.19:477][173]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.22-05.23.19:484][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.22-05.23.19:488][173]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 22, 2022, 4:23:19 PM)
+[2022.04.22-05.23.19:492][173]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.04.22-05.23.19:494][173]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.04.22-05.23.19:494][173]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.04.22-05.23.19:513][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017920s)
+[2022.04.22-05.23.19:514][173]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.04.22-05.23.19:515][173]LogPlayLevel: PIE: World Init took: (0.001930s)
+[2022.04.22-05.23.19:515][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020347s)
+[2022.04.22-05.23.19:545][173]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2022.04.22-05.23.19:548][173]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.04.22-05.23.19:548][173]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.22-05.23.19:548][173]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.22-05.23.19:548][173]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.22-05.23.19:548][173]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.22-05.23.19:548][173]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.22-05.23.19:548][173]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.22-05.23.19:548][173]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.22-05.23.19:548][173]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.22-05.23.19:548][173]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.22-05.23.19:548][173]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.22-05.23.19:548][173]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.22-05.23.19:548][173]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.22-05.23.19:550][173]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.22-05.23.19:550][173]LogAudioMixer: Display: 1: FrontRight
+[2022.04.22-05.23.19:647][173]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.04.22-05.23.19:648][173]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.22-05.23.19:648][173]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.22-05.23.19:648][173]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.22-05.23.19:648][173]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.22-05.23.19:648][173]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.22-05.23.19:648][173]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.22-05.23.19:650][173]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.22-05.23.19:650][173]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.22-05.23.19:650][173]LogInit: FAudioDevice initialized.
+[2022.04.22-05.23.19:650][173]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonExampleMap'.
+[2022.04.22-05.23.19:667][173]LogLoad: Game class is 'CharacterCustom_C'
+[2022.04.22-05.23.19:668][173]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.04.22-10.53.19
+[2022.04.22-05.23.19:669][173]LogWorld: Bringing up level for play took: 0.001201
+[2022.04.22-05.23.19:669][173]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2022.04.22-05.23.19:679][173]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2022.04.22-05.23.19:687][173]PIE: Server logged in
+[2022.04.22-05.23.19:688][173]PIE: Play in editor total start time 0.207 seconds.
+[2022.04.22-05.23.25:283][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.22-05.23.25:283][490]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.04.22-05.23.25:284][490]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.22-05.23.25:285][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.22-05.23.25:293][490]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.22-05.23.25:297][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.22-05.23.25:322][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.22-05.23.25:325][490]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.22-05.23.25:326][490]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.22-05.23.25:355][490]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2022.04.22-05.23.25:380][491]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2022.04.22-05.23.39:381][329]MapCheck: New page: Map Check
+[2022.04.22-05.23.39:398][329]LightingResults: New page: Lighting Build - Apr 22, 2022, 4:23:39 PM
+[2022.04.22-05.23.39:440][329]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.04.22-05.23.39:490][329]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.04.22-05.23.39:512][329]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.04.22-05.23.40:031][329]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.04.22-05.23.40:031][329]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5028
+[2022.04.22-05.23.48:102][329]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.04.22-05.23.48:102][329]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.04.22-05.23.48:102][329]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.04.22-05.23.48:102][329]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.04.22-05.23.48:102][329]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.04.22-05.23.48:220][329]LogEditorBuildUtils: Build time 0:08
+[2022.04.22-05.23.48:259][330]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer BasicAsset01 in PCD3D_SM5, Default, SM5 (DDC key hash: F65D6E311084B7E16889FB44834DA5F11F99DD18), compiling. 
+[2022.04.22-05.23.48:271][330]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.04.22-05.23.48:273][330]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer BasicAsset01 in PCD3D_SM5, Default, SM5 (DDC key hash: 301DC8878D83C899CB52D96471BEDC66930200CC), compiling. 
+[2022.04.22-05.23.48:276][330]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.04.22-05.23.48:280][330]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2022.04.22-05.23.48:280][330]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2022.04.22-05.23.48:280][330]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.04.22-05.23.48:280][330]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2022.04.22-05.23.48:280][330]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Low' priority
+[2022.04.22-05.23.49:095][331]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.22-05.23.49:095][331]LogShaderCompilers: Display: Total job queries 4, among them cache hits 0 (0.00%)
+[2022.04.22-05.23.49:095][331]LogShaderCompilers: Display: Tracking 4 distinct input hashes that result in 3 distinct outputs (75.00%)
+[2022.04.22-05.23.49:095][331]LogShaderCompilers: Display: RAM used: 0.01 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.04.22-05.23.49:095][331]LogShaderCompilers: Display: ================================================
+[2022.04.22-05.23.49:242][335]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2022.04.22-05.23.52:485][483]Job is a success!
+[2022.04.22-05.23.52:569][484]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.009s
+[2022.04.22-05.23.52:569][484]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.04.22-05.23.52:569][484]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2022.04.22-05.23.52:569][484]LogVolumetricLightmapImport:      Bricks at depth
+[2022.04.22-05.23.52:569][484]LogVolumetricLightmapImport:          0: 2.3% covering 100.0% of volume
+[2022.04.22-05.23.52:569][484]LogVolumetricLightmapImport:          1: 9.1% covering 6.2% of volume
+[2022.04.22-05.23.52:569][484]LogVolumetricLightmapImport:          2: 88.6% covering 1.0% of volume
+[2022.04.22-05.23.52:569][484]LogVolumetricLightmapImport:      Bricks in each level
+[2022.04.22-05.23.52:569][484]LogVolumetricLightmapImport:          ThirdPersonExampleMap 			 44 bricks 	 100.0% (Persistent Level)
+[2022.04.22-05.23.52:745][484]LogTexture: Display: Building textures: SkyOcclusion0_1 (OODLE_AutoDXT, 1024X512)
+[2022.04.22-05.23.52:745][484]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 1024X1024)
+[2022.04.22-05.23.52:745][484]LogTexture: Display: Building textures: SkyOcclusion0_2 (OODLE_AutoDXT, 512X256)
+[2022.04.22-05.23.52:746][484]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 1024X1024)
+[2022.04.22-05.23.52:746][484]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 512X512)
+[2022.04.22-05.23.52:746][484]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.22-05.23.52:746][484]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 512X512)
+[2022.04.22-05.23.52:746][484]LogTexture: Display: Building textures: SkyOcclusion0_3 (OODLE_AutoDXT, 64X32)
+[2022.04.22-05.23.52:746][484]LogTexture: Display: Building textures: HQ_Lightmap0_3 (OODLE_AutoDXT, 64X64)
+[2022.04.22-05.23.52:746][484]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (OODLE_DXT1, 64X64)
+[2022.04.22-05.23.52:746][484]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.22-05.23.52:746][484]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.22-05.23.52:746][484]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2022.04.22-05.23.52:925][484]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2022.04.22-05.23.52:925][484]LogStaticLightingSystem: ThirdPersonExampleMap_BuiltData storing lightmap data for 13 meshes in 3 LightmapResourceClusters (4.3 Meshes per cluster).
+[2022.04.22-05.23.52:953][484]Lightmass on HELIOS-300: 2.83 sec total, 206 ms importing, 17 ms setup, 584 ms photons, 1.98 sec processing, 0 ms extra exporting [13/13 mappings]. Threads: 21.8 sec total, 5.24 sec processing.
+[2022.04.22-05.23.52:956][484]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2022.04.22-05.23.53:007][484]LogStaticLightingSystem: Illumination: 13.5 sec (115 ms encoding lightmaps, 185 ms encoding shadowmaps)
+[2022.04.22-05.23.53:007][484]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2022.04.22-05.23.53:007][484]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2022.04.22-05.23.53:080][484]DumpUnbuiltLightIteractions
+[2022.04.22-05.23.53:080][484]Lights with unbuilt interactions: 0
+[2022.04.22-05.23.53:080][484]
+[2022.04.22-05.23.53:080][484]Primitives with unbuilt interactions: 0
+[2022.04.22-05.23.53:134][484]LogTexture: Display: Building textures: NewReflectionComponentTexture3884DE244CA9D1E5320A11B1C608A293 (BGRA8, 128X128)
+[2022.04.22-05.23.53:161][485]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.04.22-05.23.53:161][485]MapCheck: New page: ThirdPersonExampleMap - Apr 22, 2022, 4:23:53 PM
+[2022.04.22-05.23.53:162][485]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.144ms to complete.
